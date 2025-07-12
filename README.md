@@ -6,11 +6,9 @@ This project leverages Google Gemini Flash to prevent hallucinated SQL queries o
  Why you have to  Use This?
 LLMs are powerful but often produce invalid or hallucinated structured outputs when users ask questions outside your data domain (e.g., weather, politics).
 
-For example:
-
+#For example:
  “Who is the Prime Minister of India?” → Irrelevant
-
- “How many units of Product A were sold in Q1?” → Relevant
+ “what was closed opportunities in 2024?” → Relevant
 
 This classifier acts as a first line of defense, ensuring your pipeline only processes sales-related questions.
 
